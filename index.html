@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scientific Calculator</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <nav>
+        <h1>Scientific Calculator</h1>
+      </nav>
+  <div class="calculator">
+    <input type="text" id="display" readonly>
+    <div class="buttons">
+      <button onclick="clearDisplay()">C</button>
+      <button onclick="deleteChar()">&larr;</button>
+      <button onclick="appendSymbol('^')">^</button>
+      <button onclick="appendSymbol('/')">/</button>
+      <button onclick="appendSymbol('7')">7</button>
+      <button onclick="appendSymbol('8')">8</button>
+      <button onclick="appendSymbol('9')">9</button>
+      <button onclick="appendSymbol('*')">*</button>
+      <button onclick="appendSymbol('4')">4</button>
+      <button onclick="appendSymbol('5')">5</button>
+      <button onclick="appendSymbol('6')">6</button>
+      <button onclick="appendSymbol('-')">-</button>
+      <button onclick="appendSymbol('1')">1</button>
+      <button onclick="appendSymbol('2')">2</button>
+      <button onclick="appendSymbol('3')">3</button>
+      <button onclick="appendSymbol('+')">+</button>
+      <button onclick="appendSymbol('0')">0</button>
+      <button onclick="appendSymbol('.')">.</button>
+      <button onclick="calculate()">=</button>
+    </div>
+    <footer>
+        <p>&copy; 2023 Your Name | All rights reserved.</p>
+      </footer>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
